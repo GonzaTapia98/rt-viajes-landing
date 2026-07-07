@@ -1,0 +1,48 @@
+.hero-section {
+  background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("imagenmontana2.JPG");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 80vh;
+}
+.hero-section h1,
+.hero-section .lead {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+.destino-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.destino-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.destino-card:hover img {
+  transform: scale(1.08);
+}
+
+.destino-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.75), transparent);
+  color: white;
+  padding: 20px 15px 12px;
+}
+
+.destino-overlay h5 {
+  margin: 0;
+  font-weight: bold;
+}
+.foto-nosotros {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+}
